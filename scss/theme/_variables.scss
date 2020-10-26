@@ -1,0 +1,60 @@
+
+//    Font Family
+
+$primary-font	: 'Roboto', sans-serif;
+$title-font     : 'Poppins', sans-serif;
+
+/*--------------------------- Color variations ----------------------*/
+
+/*-ORANGE WHITE THEME-*/
+$tp-orange-c	: #ffba00;
+$tp-orange-c2	: #ff6c00;
+$tp-orange-c3	: #828bb3;
+$torange-title-color	: #222222;
+$torange-highlight-title-color: #222;
+$torange-text-color		: #777777;
+$torange-baseColor: #c5322d; 
+$torange-dip: #222222;
+$torange-pfont: #777777;
+$torange-white			: #fff;
+$torange-black			: #000;
+$torangeoffwhite: #fcfcfc;
+/*-END ORANGE WHITE THEME-*/
+/*-GREEN GREY THEME-*/
+$tp-green-c	: #3aa53d;
+$tp-green-c2	: #0b7e4f;
+$tp-green-c3	: #1a9782;
+$tp-green-bg-color: #3d4444;
+$tgreen-title-color	: #ccc;
+$tgreen-highlight-title-color : #30cf34;
+$tgreen-text-color		: #fff;
+$tgreen-baseColor: #c5322d; 
+$tgreen-dip: #222222;
+$tgreen-pfont: #fff;
+$tgreen-white			: #fff;
+$tgreen-black			: #000;
+$tgreen-offwhite: #fcfcfc;
+/*-END GREEN GREY THEME-*/
+/*-ACTUAL THEME-*/
+$primary-color	: $tp-green-c;
+$primary-color2	: $tp-green-c2;
+$primary-color3	: $tp-green-c3;
+$primary-bg-color: $tp-green-bg-color;
+$title-color	: $tgreen-title-color;
+$highlight-title-color: $tgreen-highlight-title-color;
+$text-color		: $tgreen-text-color;
+$baseColor: $tgreen-baseColor; 
+$dip: $tgreen-dip;
+$pfont: $tgreen-pfont;
+$white			: $tgreen-white;
+$black			: $tgreen-black;
+$offwhite: $tgreen-offwhite;
+
+/*--------------------------- Fonts ----------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,700|Roboto:400,500');
+
+
+
+
+

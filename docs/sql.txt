@@ -1,0 +1,37 @@
+oCREATE TABLE products(
+    INT product_id NOT NULL PRIMARY KEY,
+    VARCHAR(88) name NOT NULL,
+    TEXT description NOT NULL,
+    FLOAT unit_price NOT NULL,
+    VARCHAR(255) image_url NULL,
+    INT stock NOT NULL
+)
+
+CREATE TABLE users(
+    INT user_id NOT NULL PRIMARY KEY,
+    VARCHAR(320) email NOT NULL,
+    VARCHAR(255) password_hash NOT NULL,
+    VARCHAR(255) billing_address NOT NULL,
+    VARCHAR(16) mc_username NOT NULL
+)
+
+CREATE TABLE orders(
+    INT order_id NOT NULL PRIMARY KEY,
+    INT user_id NOT NULL,
+    DATETIME date NOT NULL,
+)
+
+CREATE TABLE order_lines(
+    INT order_id NOT NULL,
+    INT product_id NOT NULL,
+    INT quantity NOT NULL
+)
+
+CREATE TABLE discounts(
+    INT discount_id NOT NULL PRIMARY KEY,
+    INT product_id NOT NULL,
+    DATETIME start_time NOT NULL,
+    DATETIME end_time NOT NULL,
+    FLOAT price_discount NULL,
+    FLOAT percent_discount NULL
+)

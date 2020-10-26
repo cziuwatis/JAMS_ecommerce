@@ -1,0 +1,5 @@
+ALTER TABLE users
+	ADD email VARCHAR(255) UNIQUE NOT NULL,
+	ADD password VARCHAR(255) NOT NULLl,
+        ADD access INT NOT NULL DEFAULT 0
+;

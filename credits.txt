@@ -1,0 +1,10 @@
+Main bootstrap template modified from
+https://colorlib.com/wp/template/karma/
+
+Product Pictures modified from
+https://bdcraft.net/
+http://minecraft.novaskin.me/wallpapers
+
+
+Progress bar template
+https://codepen.io/whqet/pen/EJgwb/

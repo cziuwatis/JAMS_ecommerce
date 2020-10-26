@@ -1,0 +1,17 @@
+{
+    "name": "vendor/full-stack-web-dev-y2-s1-project2",
+    "description": "Description of project FullStackWebDevY2S1_project2.",
+    "authors": [
+        {
+            "name": "andrz",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "auth0/auth0-php": "dev-master",
+        "godruoyi/php-snowflake": "^1.0",
+        "stripe/stripe-php": "dev-master",
+      "ext-gd": "*",
+      "ext-json": "*"
+    }
+}

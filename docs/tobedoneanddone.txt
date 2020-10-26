@@ -1,0 +1,41 @@
+@TODO
++ on category.php add to bag to actually add to bag
++ message function into main.js to display (bootstrap) ->if added, failed etc
++ if already in cart, change quantity for order of item
+- in cart, change quantity of order
+- in cart, add remove item button and actually remove it
+- in cart, fix quantity of order change
++ remove bottom half of cart page
++ single-product.php image url work
++ item pictures at stripe checkout
++ confirmation php navbar
++ add password reset link
++ fix minecraft username fully make it yes
++ confirmation.php add products dynamically
++ confirmation.php navbar, link cconnections
+- extra for me -> changeState for ccategory
++ home page remove all and have button for shop now
+- home page server information
++ banners
++ navbar -> cart icon
++ navbar -> remove irrelevant
+- searchbar?
++ finish images for some of the items
+
+@INDEPENDENT
+auth0 -> authentication
+mojangApi -> minecraft username
+stripeCheckout
+webhooks
+photoshop?!
+pagination
+cart
+snowflake
+php functions
+(moderately)restful api
+composer
+json web tokens -> leeway?, auth0 etc
+
+
+
+

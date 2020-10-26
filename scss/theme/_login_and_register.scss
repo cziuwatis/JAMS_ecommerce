@@ -1,0 +1,73 @@
+.register_box_img{
+    margin-right: 0 !important;
+    margin-left: -30px;
+    height: 100%;
+    @media(max-width: 992px){
+        margin-left: 0;
+    }
+}
+.register_form_checklist{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    margin-left: -30px;
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    background-color: rgba( red($primary-bg-color), green($primary-bg-color), blue($primary-bg-color), .8);
+    @media (max-width: 570px) {
+        height: 130%;
+        margin-top: -30px;
+        margin-left: -15px;
+        overflow: auto;
+    }
+    //margin-bottom: 30px;
+    .checklist_item{
+        padding: 5px;
+        //border: 3px solid $black;
+        background-color: #189618;
+        color: $white;
+        margin-bottom: 2px;
+        transition-duration: .3s;
+        text-shadow: 0px 0px 0px $white;
+    }
+    .register_incorrect_input{
+        background-color: #ef1d1d;
+        transition-duration: .3s;
+    }
+}
+
+.show{
+    display: block;
+    animation-name: "show-nice";
+    animation-duration: .3s;
+}
+@keyframes show-nice {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.ssd_form_container{
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+.ssd_form_row{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.ssd_form_col{
+    flex: 50%;
+    padding: 15px;
+    position: relative;
+    @media(max-width: 992px){
+        flex: 100%;
+        width: 100%;
+    }
+}
+.ssd_input_container{
+    flex: 100%;
+    margin-bottom: 10px;
+    width: 100%;
+}
